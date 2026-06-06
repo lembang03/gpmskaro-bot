@@ -16,7 +16,7 @@ from telegram.ext import (
 
 TOKEN = "7646397047:AAH6lmMsQUTUppO99jTip1xA7VKfL-nFXAc"
 
-WELCOME_IMAGE = "https://ibb.co/WNQQQVT4"
+WELCOME_IMAGE = "https://ibb.co/Cszz3ST5"
 
 WEBSITE_GPMS = "https://gpms.xo.je/"
 
@@ -139,9 +139,9 @@ async def new_member(update: Update, context: ContextTypes.DEFAULT_TYPE):
         username = f"@{member.username}" if member.username else "Tidak Ada Username"
 
         text = f"""
-🌿 MEJUAH-JUAH 🌿
+🌿 𝙈𝙀𝙅𝙐𝘼𝙃-𝙅𝙐𝘼𝙃𝙃 🌿
 
-SELAMAT DATANG DI GPMS - TANAH KARO
+𝐒𝐄𝐋𝐀𝐌𝐀𝐓 𝐃𝐀𝐓𝐀𝐍𝐆 𝐃𝐈 𝐆𝐑𝐔𝐏 𝐆𝐏𝐌𝐒 - 𝐓𝐀𝐍𝐀𝐇 𝐊𝐀𝐑𝐎
 
 ━━━━━━━━━━━━━━
 
@@ -151,12 +151,13 @@ USERNAME : {username}
 
 ━━━━━━━━━━━━━━
 
-GRUP INI UNTUK MENJALIN
-SILATURAHMI DAN PERSAUDARAAN.
+𝐆𝐑𝐔𝐏 𝐈𝐍𝐈 𝐔𝐍𝐓𝐔𝐊 𝐌𝐄𝐍𝐉𝐀𝐋𝐈𝐍
+𝐒𝐈𝐋𝐀𝐓𝐔𝐑𝐀𝐇𝐌𝐈 𝐃𝐀𝐍 𝐏𝐄𝐑𝐒𝐀𝐔𝐃𝐀𝐑𝐀𝐀𝐍.
 
-SEMOGA BETAH DI GRUP KITA.
+𝗝𝗮𝗻𝗴𝗮𝗻 𝗿𝗮𝗴𝘂 𝘂𝗻𝘁𝘂𝗸 𝗯𝗲𝗿𝗸𝗲𝗻𝗮𝗹𝗮𝗻 𝗱𝗮𝗻 𝗯𝗲𝗿𝗽𝗮𝗿𝘁𝗶𝘀𝗶𝗽𝗮𝘀𝗶 𝗱𝗮𝗹𝗮𝗺 𝗱𝗶𝘀𝗸𝘂𝘀𝗶.
 
-TERIMA KASIH TELAH BERGABUNG ❤️
+
+𝐓𝐄𝐑𝐈𝐌𝐀 𝐊𝐀𝐒𝐈𝐇 𝐓𝐄𝐋𝐀𝐇 𝐁𝐄𝐑𝐆𝐀𝐁𝐔𝐍𝐆 ❤️
 """
 
         keyboard = [
